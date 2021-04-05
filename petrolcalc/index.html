@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>petrol-calc</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function add(){
+                var a =document.getElementById("text1").value;
+                
+                var b =document.getElementById("text2").value;
+                
+                var c =document.getElementById("text3").value;
+
+                var result=parseInt(a)/parseInt(b)*parseInt(c);
+                {
+                    document.querySelector("h2").innerHTML = result.toFixed(2);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+        <h1>Petrol-Calc</h1>
+        <h2 style="color: red;"></h2>
+        <input id="text1" style="height: 30px; width: 180px; text-align: center; border-color: blue;" placeholder="Enter your km">Km
+        <br>
+        <br>
+        <br>
+        <input id="text2" style="height: 30px; width: 200px; text-align: center; border-color: blue" placeholder="Enter your bike Mileage">
+        <br>
+        <br>
+        <br>
+        <input id="text3" style="height: 30px; width: 200px; text-align: center; border-color: blue" placeholder="Enter current petrol price">
+        <br>
+        <br>
+        <br>
+        <button onclick="add()" style="height: 40px; width: 100px; color: red;"><b>Total amount</b></button>
+        </div>
+   </body>
+</html>
