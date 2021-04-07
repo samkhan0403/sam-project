@@ -1,0 +1,11 @@
+body{
+background:url(crick.jpg) no-repeat;
+background-size: 100%;
+text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
