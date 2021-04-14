@@ -1,0 +1,19 @@
+body {
+    background:url(masjid.jpeg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    border: 4px;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 500px;
+}
