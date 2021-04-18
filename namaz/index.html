@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>SALAH</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            
+            function add(){
+                var x=document.getElementById("text1").value;
+            
+            if(x == "fajr"){
+                document.write("2 sunnat");
+                document.write("<br/>");
+                document.write("2 farz");
+            }
+            else if(x == "zuhr"){
+                document.write("4 sunnat");
+                document.write("<br/>");
+                document.write("4 farz");
+                document.write("<br/>")
+                document.write("2 sunnat");
+                document.write("<br/>");
+                document.write("2 nafil");
+            }
+            else if(x == "asr"){
+                document.write("4 sunnat-e-gair mokadda");
+                document.write("<br/>");
+                document.write("4 farz");
+            }else if(x == "magrib"){
+                document.write("3 farz");
+                document.write("<br/>");
+                document.write("2 sunnat");
+                document.write("<br/>")
+                document.write("2 nafil");
+            }else if(x == "isha"){
+                document.write("4 sunnat-e-gair mokkada");
+                document.write("<br/>");
+                document.write("4 farz");
+                document.write("<br/")
+                document.write("2 sunnat");
+                document.write("<br/>");
+                document.write("2 nafil");
+                document.write("<br/>")
+                document.write("3 witr wajib");
+                document.write("<br/>");
+                document.write("2 nafil");
+            }else {
+                document.write("PLEASE ENTER PROPER SALAH NAME")
+            }
+           }
+        </script>
+        </head>
+        <body>
+            <h1>RAKAT-E-NAMAZ</h1>
+            <h2></h2>
+            <input style="height: 30px; width: 200px; text-align: center;" type="text" id="text1" placeholder="Enter salah name">
+            <br>
+            <br>
+            <br>
+            <button onclick="add()" style="height: 30px; width: 140px; text-align: center;">RAKAT</button>
+        </body>
+        </html>
